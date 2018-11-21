@@ -4,21 +4,20 @@ $(document).ready(function() {
 		window.location = "category-apartments-filter.php";
 	}	
 	// Genplan hover
-
-	(function(){
-	    var popup = document.getElementById('genplan-text');
-
-		$('#genplan > a').hover(function(e) {
-	        e.preventDefault();
-	        var bodyOffsets = document.body.getBoundingClientRect();
-	        var attrDescr = $(this).attr('data-description');
-	        $('.genplan-text').html(attrDescr);
-	        popup.style.opacity = '1';
-	        popup.style.left = e.pageX - bodyOffsets.left  + 'px';
-	        popup.style.top = e.pageY - popup.offsetHeight + 'px';
-		}, function() {
-			popup.style.opacity = '0';
-		});
-
-	})();
+	$('#genplan > a').mousemove(function (eventObject) {
+          $data_tooltip = $(this).attr("data-description");
+           $('.genplan-text').html($data_tooltip)
+              .css({ 
+                "top" : eventObject.pageY + 10,
+                "left" : eventObject.pageX + 10
+              })
+              .show();
+          }).mouseout(function () {
+             $('.genplan-text').hide()
+              .html("")
+              .css({
+                  "top" : 0,
+                  "left" : 0
+              });
+      });
 })	

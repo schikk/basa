@@ -2490,7 +2490,7 @@ footer {
 	font-weight: bold;
 	text-align: center;
 	color: #fff;
-	opacity: 0;
+	opacity: 1;
 	transition: opacity .5s;
 	pointer-events: none;
 	position: absolute;
