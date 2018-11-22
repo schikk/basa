@@ -2776,22 +2776,11 @@ footer {
 	background-repeat: no-repeat;
 	background-size: contain;
 }
-.floor-plan > svg path {
-	opacity: 0;
+.floor-plan > svg polygon {
 	transition: opacity .5s;
 }
-.floor-plan > svg a[data-aprtment-name="1КП"] path,
-.floor-plan > svg a[data-aprtment-name="1КС"] path {
-	fill: #F69300;
-}
-.floor-plan > svg a[data-aprtment-name="2КП"] path {
-	fill: #7997A7;
-}
-.floor-plan > svg a[data-aprtment-name="3КП"] path {
-	fill: #CFCFCF;
-}
-.floor-plan > svg path:hover {
-	opacity: .5;
+.floor-plan > svg polygon:hover {
+	opacity: 1;
 }
 .floor-plan img {
 	display: inline-block;
