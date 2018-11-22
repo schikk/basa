@@ -47,25 +47,24 @@
 			</div>
 			<section class="floor-result-container animation-element">
 				<div class="floor-plan" id="floor-plan">
-					<img src="img/apartment-scheme/1fl-3section.svg" alt="">
-					<svg viewBox="0 0 649 501">
-						<a href="single-apartment.php" data-aprtment-name="1КП" data-aprtment-square="46,76">
+					<svg viewBox="0 0 649 501" style="background-image: url(img/apartment-scheme/1fl-3section.svg);">
+						<a xlink:href="single-apartment.php" data-aprtment-name="1КП" data-aprtment-square="46,76">
 							<path d="M 0.49115756,64.669113 201.65994,65.024086 201.52363,239.74783 0,239.78472 Z">
 							</path>
 						</a>
-						<a href="single-apartment.php" data-aprtment-name="2КС" data-aprtment-square="65,77">
+						<a xlink:href="single-apartment.php" data-aprtment-name="2КС" data-aprtment-square="65,77">
 							<path d="m 413,1 -1.53682,194.23987 82.36632,0.12741 v 44.87597 l 146.84542,-0.12798 3.2e-4,-239.96585824 H 412.37942">
 							</path>
 						</a>
-						<a href="single-apartment.php" data-aprtment-name="2КС" data-aprtment-square="74,93">
+						<a xlink:href="single-apartment.php" data-aprtment-name="2КС" data-aprtment-square="74,93">
 							<path d="M 426.63031,245.7086 426.42267,500.14301 641,500 640.67492,245.74228 Z">
 							</path>
 						</a>
-						<a href="single-apartment.php" data-aprtment-name="1КС" data-aprtment-square="49,17">
+						<a xlink:href="single-apartment.php" data-aprtment-name="1КС" data-aprtment-square="49,17">
 							<path d="m 280.47918,245.70868 1.0787,255.00756 h 137.99517 l 1.48401,-255.00764 z">
 							</path>
 						</a>
-						<a href="single-apartment.php" data-aprtment-name="2КС" data-aprtment-square="75,04">
+						<a xlink:href="single-apartment.php" data-aprtment-name="2КС" data-aprtment-square="75,04">
 							<path d="m 60.523473,245.70868 0.0031,254.43441 214.117167,-8e-5 0.24224,-254.43433 z">
 							</path>
 						</a>																		

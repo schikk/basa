@@ -2467,6 +2467,9 @@ footer {
 	position: absolute;
 	top: 0;
 	left: 0;
+	background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 .path-part {
 	fill: rgba(249, 160, 26, 0.4);
@@ -2769,9 +2772,9 @@ footer {
 .floor-plan > svg {
 	width: 100%;
 	height: 100%;
-	position: absolute;
-	top: 0;
-	left: 0;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
 }
 .floor-plan > svg path {
 	opacity: 0;
