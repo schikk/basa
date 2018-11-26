@@ -55,7 +55,7 @@
 					</div>					
 				</div>
 				<div class="main-apartment-descr-col">
-					<h1>С3-1КП-1.5</h1>
+					<h1>1КП</h1>
 					<div class="apartment-view-btns">
 						<span class="active" id="left-ap-view-btn" role="button">ПЛАНИРОВКА</span>
 						<span id="right-ap-view-btn" role="button">МЕБЕЛЬ</span>
