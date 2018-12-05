@@ -2948,6 +2948,7 @@ footer {
 .section-filter > li input:checked + label,
 .stage-filter-list > li input:checked + label{
 	background-color: #f9a01a;
+    color: #0f171e;
 }
 @media only screen and (min-width: 767px) {
 	.section-filter > li label:hover,
@@ -3166,17 +3167,19 @@ footer {
 	display: -ms-flex;
 	display: -o-flex;
 	display: flex;
-	justify-content: space-between;
 	flex-wrap: wrap;
 }
 .apartments-filter-result-list > li {
 	width: 3.2rem;
 	height: 3.95rem;
 	background-color: #fafafa;
-	margin-bottom: .2rem;
+	margin: 0 0 .2rem 0;
 	transition: box-shadow .6s ease, opacity 1s, -webkit-transform 1s ease;
 	transition: box-shadow .6s ease, transform 1s ease, opacity 1s;
 	transition: box-shadow .6s ease, transform 1s ease, opacity 1s, -webkit-transform 1s ease;
+}
+.apartments-filter-result-list > li:nth-of-type(3n-1) {
+	margin: 0 .2rem .2rem;
 }
 .apartments-filter-result-list > li:hover {
 	-webkit-transform: translateY(-.03rem);

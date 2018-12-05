@@ -1523,6 +1523,9 @@ img.mobile-map,
 		width: 100%;
 		text-align: center;
 	}
+	.apartments-filter-result-list > li:nth-of-type(3n-1) {
+		margin: 0 0 .2rem 0;
+	}
 	/* CATEGORY APARTMENTS FILTER */
 	.category-apartments-filter {
 		opacity: 0;
