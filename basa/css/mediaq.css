@@ -1579,7 +1579,7 @@ img.mobile-map,
 		padding: 1.1rem .3rem .5rem;
 		overflow: auto;
 	}
-	.mobile-filter-window-wrapper > div {
+	.mobile-filter-window-wrapper form > div {
 		position: initial;
 	}
 	.back-clear-btns {

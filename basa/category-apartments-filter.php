@@ -2,8 +2,8 @@
 	<main class="category-apartments-filter">
 		<div class="category-apartments-wrapper">
 			<a href="#" class="basa-btn mobile-filter-btn">Фильтр</a>
-			<div class="top-row-filter-container">
-				<form id="top-row-filter" action="#" method="POST">
+			<form id="form-filter" action="#" method="POST">
+				<div class="top-row-filter-container">
 					<div class="top-row-filter-wrapper">
 						<h3 class="filter-name top-filter-name">Очередь</h3>
 						<ul class="stage-filter-list" id="stage-filter">
@@ -40,19 +40,17 @@
 							</li>														
 						</ul>						
 					</div>
-				</form>
-			</div>
-			<div class="cat-apartments-left-col">
-				<div class="back-genplan-btn">
-					<div class="back-clear-btns">
-						<a href="javascript:history.go(-1)" id="back-btn" class="back-genplan"></a>
-						<a href="page-genplan.php" id="back-genplan-btn" class="clear-genplan"></a>
-					</div>
-					<span class="back-text">ВЕРНУТЬСЯ НАЗАД</span>
-					<span class="back-genplan-text">ВЕРНУТЬСЯ К ГЕНПЛАНУ</span>
 				</div>
-				<div class="left-col-filter-container">
-					<form id="left-col-filter" action="#" method="POST">
+				<div class="cat-apartments-left-col">
+					<div class="back-genplan-btn">
+						<div class="back-clear-btns">
+							<a href="javascript:history.go(-1)" id="back-btn" class="back-genplan"></a>
+							<a href="page-genplan.php" id="back-genplan-btn" class="clear-genplan"></a>
+						</div>
+						<span class="back-text">ВЕРНУТЬСЯ НАЗАД</span>
+						<span class="back-genplan-text">ВЕРНУТЬСЯ К ГЕНПЛАНУ</span>
+					</div>
+					<div class="left-col-filter-container">
 						<h3 class="filter-name">СЕКЦИЯ</h3>
 						<ul class="section-filter" id="section-filter">
 							<li>
@@ -125,10 +123,10 @@
 								<span class="val-range" id="val-range-squareL">40</span>
 								<span class="val-range" id="val-range-squareR">120</span>						
 							</div>						
-						</div>									
-					</form>
+						</div>	
+					</div>
 				</div>
-			</div>
+			</form>
 			<div class="cat-apartments-main-col">
 				<section class="apartments-filter-result">
 					<ul class="apartments-filter-result-list">

@@ -72,7 +72,7 @@ $(document).ready(function() {
     // Mobile scripts
     if ( $(window).width() < 767 ) {
         $('.category-apartments-filter').addClass('onload');
-        $('.top-row-filter-container, .cat-apartments-left-col').appendTo('.mobile-filter-window-wrapper');
+        $('#form-filter').appendTo('.mobile-filter-window-wrapper');
         $('.mobile-filter-btn').click(function(event) {
             event.preventDefault();
             $('.mobile-filter-window').addClass('active');
