@@ -2778,10 +2778,12 @@ footer {
 	background-repeat: no-repeat;
 	background-size: contain;
 }
-.floor-plan > svg polygon {
+.floor-plan > svg polygon,
+.floor-plan > svg g {
 	transition: opacity .5s;
 }
-.floor-plan > svg polygon:hover {
+.floor-plan > svg polygon:hover,
+.floor-plan > svg g:hover {
 	opacity: 1;
 }
 .floor-plan img {
@@ -3361,7 +3363,7 @@ footer {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	padding: 0 0 0 .78rem;
+	margin-left: .5rem;
 }
 .main-apartment-descr-col h1 {
 	font-family: 'Geometria';
@@ -3397,7 +3399,7 @@ footer {
 	width: 1.46rem;
 	font-size: .14rem;
 	font-weight: 500;
-	margin-right: .3rem;
+	margin-right: .1rem;
 }
 .room-square sup {
 	font-size: .1rem;
