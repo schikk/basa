@@ -1434,16 +1434,20 @@ img.mobile-map,
 	.main-apartment-description {
 		flex-direction: column;
 	}
+	.apartment-general-info-container {
+		position: initial;
+		margin-bottom: .5rem;
+	}
 	.apartment-general-info-list {
 		position: initial;
 		width: 2.6rem;
-		margin: .5rem auto 1.18rem;
+		margin: .5rem auto 0;
 	}
 	.apartment-order-btn {
-		display: inline-block;
+		display: block;
 		width: 2.6rem;
-		bottom: .65rem;
-		right: calc(50% - 1.3rem);
+		margin: auto;
+		position: initial;
 	}
 	.single-apartment h1 {
 		font-family: 'Geometria';
@@ -1482,6 +1486,7 @@ img.mobile-map,
 	}
 	.main-apartment-descr-col {
 		padding: 0 .25rem 0 .35rem;
+		margin-left: 0;
 	}
 	.room-name {
 		width: .75rem;
