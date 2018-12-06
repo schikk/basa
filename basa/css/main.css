@@ -3174,7 +3174,7 @@ footer {
 	flex-wrap: wrap;
 }
 .apartments-filter-result-list > li {
-	width: 3.2rem;
+	width: 32%;
 	height: 3.95rem;
 	background-color: #fafafa;
 	margin: 0 0 .2rem 0;
@@ -3404,11 +3404,13 @@ footer {
 .room-square sup {
 	font-size: .1rem;
 }
-.apartment-general-info-list {
-	width: 2.14rem;
+.apartment-general-info-container {
 	position: absolute;
 	top: 1.4rem;
 	right: 0;
+}
+.apartment-general-info-list {
+	width: 2.14rem;
 	box-shadow: 0 .3rem .6rem 0 rgba(0, 0, 0, 0.2);
 	background-color: rgba(17, 24, 21, 0.99);
 	text-align: center;
@@ -3447,9 +3449,6 @@ footer {
 }
 .apartment-order-btn {
 	width: 2.14rem;
-	position: absolute;
-	right: 0;
-    bottom: 1.8rem;
     padding: .2rem 0;
 }
 .apartment-view-btns > span {

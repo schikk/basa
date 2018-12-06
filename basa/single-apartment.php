@@ -78,21 +78,23 @@
 						</li>																		
 					</ol>
 				</div>
-				<ul class="cs-info-list apartment-general-info-list">
-					<li class="animation-element-text">
-						<span class="company-indicator">1</span>
-						<p class="company-determination">Комната</p>				
-					</li>
-					<li class="animation-element-text">
-						<span class="company-indicator">46.76 <span class="sq-symbol">м<sup>2</sup></span></span>
-						<p class="company-determination">Общая площадь</p>							
-					</li>
-					<li class="animation-element-text">
-						<span class="company-indicator">18.09 <span class="sq-symbol">м<sup>2</sup></span></span>
-						<p class="company-determination">Жилой площади</p>							
-					</li>																	
-				</ul>
-				<a href="#" class="basa-btn form-initial-btn apartment-order-btn">ЗАКАЗАТЬ ПРОСМОТР</a>
+				<div class="apartment-general-info-container">
+					<ul class="cs-info-list apartment-general-info-list">
+						<li class="animation-element-text">
+							<span class="company-indicator">1</span>
+							<p class="company-determination">Комната</p>				
+						</li>
+						<li class="animation-element-text">
+							<span class="company-indicator">46.76 <span class="sq-symbol">м<sup>2</sup></span></span>
+							<p class="company-determination">Общая площадь</p>							
+						</li>
+						<li class="animation-element-text">
+							<span class="company-indicator">18.09 <span class="sq-symbol">м<sup>2</sup></span></span>
+							<p class="company-determination">Жилой площади</p>							
+						</li>																	
+					</ul>
+					<a href="#" class="basa-btn form-initial-btn apartment-order-btn">ЗАКАЗАТЬ ПРОСМОТР</a>					
+				</div>
 			</section>
 		</div>
 		<section class="similar-apartments animation-element">
