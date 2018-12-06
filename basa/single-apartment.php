@@ -62,18 +62,23 @@
 					</div>
 					<ol class="main-apartment-descr-list">
 						<li>
+							<span class="room-item">1</span>
 							<span class="room-name">КОРИДОР</span> <span class="room-square">7,21 м<sup>2</sup></span>
 						</li>
 						<li>
+							<span class="room-item">2</span>
 							<span class="room-name">КУХНЯ</span> <span class="room-square">13,43 м<sup>2</sup></span>
 						</li>
 						<li>
+							<span class="room-item">3</span>
 							<span class="room-name">ОБЩАЯ КОМНАТА</span> <span class="room-square">18,09 м<sup>2</sup></span>
 						</li>
 						<li>
+							<span class="room-item">3/4</span>
 							<span class="room-name">С/у</span> <span class="room-square">4,40 м<sup>2</sup></span>
 						</li>
 						<li>
+							<span class="room-item">5</span>
 							<span class="room-name">КЛАДОВАЯ</span> <span class="room-square">3,63 м<sup>2</sup></span>
 						</li>																		
 					</ol>

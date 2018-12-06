@@ -3378,21 +3378,17 @@ footer {
 	position: initial;
 	margin: 0 auto .43rem;
 }
-.main-apartment-descr-list {
-    counter-reset: list;
-}
 .main-apartment-descr-list li {
 	margin-bottom: .2rem;
 	font-size: .14rem;
 	letter-spacing: .006rem;
 	color: #0f171e;
 }
-.main-apartment-descr-list li::before {
-	box-sizing: border-box;
-	counter-increment: list;
-	content: counter(list);
+.room-item {
+	display: inline-block;
+	width: .3rem;
 	font-weight: 800;
-	margin-right: .31rem;
+	margin-right: .2rem;	
 }
 .room-name {
 	display: inline-block;
