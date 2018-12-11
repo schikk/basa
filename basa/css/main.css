@@ -2245,6 +2245,27 @@ blockquote::selection {
 	color: #111815;
 	text-transform: uppercase;
 }
+.base-tel {
+	display: none;
+	position: absolute;
+	top: 0;
+	padding: .165rem .19rem .21rem .19rem;
+	font-family: 'Geometria';
+	font-weight: 500;
+	font-size: .12rem;
+	font-style: normal;
+	line-height: 1.83;
+	letter-spacing: .014rem;
+	color: #ffa400;
+	text-transform: uppercase;
+	pointer-events: none;
+}
+.base-tel.active {
+	display: block;
+}
+#user-tel {
+	padding: .17rem .19rem .21rem .6rem;
+}
 .modal-contacts-input-wrapper label {
     display: block;
     width: 100%;

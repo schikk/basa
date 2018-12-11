@@ -137,6 +137,20 @@ $(document).ready(function() {
         }
       });
 
+      phoneInput.focus(function(event) {
+        $('.base-tel').addClass('active');
+      });
+      phoneInput.focusout(function(event) {
+        if ($(this).val() == '') {
+          $('.base-tel').removeClass('active');
+        }
+      });
+
+      phoneInput.keyup(function() {
+        if (this.value.length > 9)
+          this.value = this.value.substr(0, 9);
+      });
+
       inputs.each(function(index, el) {
         if ( $(this).val() != '' ){
           $(this).addClass('filled');
@@ -151,7 +165,7 @@ $(document).ready(function() {
         }
 
         function validatePhone($phone) {
-            var phoneReg = /^[\s()+-]*([0-9][\s()+-]*){6,20}$/;
+            var phoneReg = /^[\s()]*([0-9][\s()]*){6,20}$/;
             return phoneReg.test( $phone );
         }
         function validateEmail($email) {

@@ -180,10 +180,9 @@ img.mobile-map,
 	}
 	.our-news .basa-btn {
 		display: block;
+		width: 2.5rem;
+		margin: auto;
 		padding: .2rem .3rem;
-		float: right;
-		clear: both;
-		margin-right: 12px;
 	}
 	.intro-content p {
 		font-size: .14rem;

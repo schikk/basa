@@ -15,6 +15,7 @@
 					<div class="modal-contacts-input-wrapper">
 						<input type="tel" name="user-tel" id="user-tel" autocomplete="off">
 						<label for="user-tel">Номер телефона</label>
+						<span class="base-tel">+380</span>
 					</div>
 					<input type="text" name="required" class="req-input">
 					<button id="submit-btn" class="basa-btn" type="submit">Отправить</button>
